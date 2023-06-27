@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/c1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email"
+            android:hint="@string/Email"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_border"
+            android:fontFamily="@font/alata"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/userpass"
+            android:hint="@string/Password"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_border"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="@font/alata"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="160sp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_background_color"
+        android:textStyle="bold"
+        android:textColor="@color/button_text_color"
+        android:textSize="23sp"
+        android:padding="15sp"
+        android:text="@string/sign_in"
+        android:fontFamily="@font/alata"
+        />
+
+    <TextView
+        android:id="@+id/registerNow"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:text="@string/click_toRegister"
+        />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MADD_App</string>
+    <string name="login">LOGIN</string>
+    <string name="Email">Enter your email</string>
+    <string name="Password">Enter your password</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="register">REGISTER</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="click_toLogin">Already have an account?</string>
+    <string name="click_toRegister">Not registered yet?. Click to register!</string>
+    <string name="welcome">"Welcome "</string>
+</resources>
